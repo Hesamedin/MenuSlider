@@ -37,7 +37,7 @@ public class MainFragmentActivity extends BaseFragmentActivity {
                 .commit();
 
         getSlidingMenu().setSecondaryMenu(R.layout.slider_frame_right);
-        getSlidingMenu().setSecondaryShadowDrawable(R.drawable.shadowright);
+        getSlidingMenu().setSecondaryShadowDrawable(R.drawable.shadow_right);
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.slider_frame_right, new SlidingRightFragment())
